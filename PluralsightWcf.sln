@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.30503.244
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PluralsightWcf.Wcf", "PluralsightWcf.Wcf\PluralsightWcf.Wcf.csproj", "{A041EA40-8C9C-4140-9DBF-1A1768C6F5C9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PluralsightWcf.Business", "PluralsightWcf.Business\PluralsightWcf.Business.csproj", "{5E3224E9-FCAE-4A2D-AA9A-8E4437C35FE4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PluralsightWcf.ConsoleHost", "PluralsightWcf.ConsoleHost\PluralsightWcf.ConsoleHost.csproj", "{AC1B419D-9DAF-4CD9-8F6D-E74497D5462F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{A041EA40-8C9C-4140-9DBF-1A1768C6F5C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A041EA40-8C9C-4140-9DBF-1A1768C6F5C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A041EA40-8C9C-4140-9DBF-1A1768C6F5C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E3224E9-FCAE-4A2D-AA9A-8E4437C35FE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E3224E9-FCAE-4A2D-AA9A-8E4437C35FE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E3224E9-FCAE-4A2D-AA9A-8E4437C35FE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E3224E9-FCAE-4A2D-AA9A-8E4437C35FE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC1B419D-9DAF-4CD9-8F6D-E74497D5462F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC1B419D-9DAF-4CD9-8F6D-E74497D5462F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC1B419D-9DAF-4CD9-8F6D-E74497D5462F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC1B419D-9DAF-4CD9-8F6D-E74497D5462F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
