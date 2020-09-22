@@ -1,17 +1,20 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
+﻿using System.Collections.Generic;
+using System.Threading.Tasks;
 using System.Web.Mvc;
+using PluralsightWcf.WebClient.OrderManagementWcf;
+using PluralsightWcf.WebClient.Proxies;
 
 namespace PluralsightWcf.WebClient.Controllers
 {
     public class ProductsController : Controller
     {
+        private readonly IOrderManagementProxy _orderManagementProxy = new OrderManagementProxy();
+
         // GET: Products
-        public ActionResult Index()
+        public async Task<ActionResult> Index()
         {
-            return View();
+            List<Product> products = await _orderManagementProxy.GetProducts();
+            return View(products);
         }
     }
 }
